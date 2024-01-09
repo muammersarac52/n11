@@ -10,7 +10,7 @@ import utilities.Driver;
 import static utilities.ReusableMethods.closePopUp;
 import static utilities.ReusableMethods.navigateToUrl;
 
-public class stepdefinition {
+public class AnaSayfa_Step {
     HomPage_page page = new HomPage_page();
     Actions actions = new Actions(Driver.getDriver());
 

@@ -26,6 +26,55 @@ public class HomPage_page {
     @FindBy(xpath = "//*[@id='p-584158827']/div/a/div/img")
     public WebElement birinciUrun;
 
+    @FindBy(xpath = "(//a[@href='https://www.n11.com/uye-ol'])[1]")
+    public WebElement uyeOl;
+
+    @FindBy(xpath = "//*[@id='contentWrapper']")
+    public WebElement hosgeldiniz;
+
+
+
+    @FindBy(xpath = "//div[@class='btnPrimary agreement-button']")
+    public WebElement musteriAydinlatmaMetni;
+
+    @FindBy(xpath = "//input[@id='firstName']")
+    public WebElement ad;
+
+    @FindBy(xpath = "//label[@for='registrationEmail']")
+    public WebElement eMail;
+
+    @FindBy(xpath = "//input[@id='phoneNumber']")
+    public WebElement telNo;
+
+    @FindBy(xpath = "//input[@id='password']")
+    public WebElement password;
+
+    @FindBy(xpath = "//input[@id='password']")
+    public WebElement cinsiyet;
+
+    @FindBy(xpath = "//input[@id='password']")
+    public WebElement guvenlikKodu;
+
+    @FindBy(xpath = "//label[@for='acceptContract']")
+    public WebElement uyelikSozlesmesi;
+
+    @FindBy(xpath = "//label[@for='sendPromotionalMailAndSms']")
+    public WebElement hizmettenHaberdarOlma;
+
+    @FindBy(xpath = "//div[@id='submitButton']")
+    public WebElement numarayiDogrula;
+
+    @FindBy(xpath = "//a[@class='google-login-btn']")
+    public WebElement google;
+
+    @FindBy(xpath = "//div[@class='facebook_large medium facebookBtn btnSignUp']")
+    public WebElement facebok;
+
+    @FindBy(xpath = "//a[@class='apple-login-btn']")
+    public WebElement apple;
+
+
+
 
 
 }
