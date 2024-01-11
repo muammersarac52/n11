@@ -3,6 +3,7 @@ Feature:Uye_olma
   @uyeOl
   Scenario: Uye_olma
 
+
   Scenario Outline:
     Given MS Kullanici url gider
     When  MS Ana sayfayi dogrular
